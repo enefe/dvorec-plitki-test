@@ -57,7 +57,7 @@
 
 .bx-soa-design {
     background-color: #fff;
-    border-radius: 12px;
+    border-radius: 2px;
 }
 
 .box-shadow-a {
@@ -215,6 +215,16 @@ element.style {
     overflow: hidden;
     transition-timing-function: cubic-bezier(.66, .43, .46, .89);
     transition-property: all;
+    animation: moow .3s;
+}
+
+@keyframes moow {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 75px
+    }
 }
 
 .collapse-wrapper {
