@@ -28,7 +28,7 @@
 }
 
 .input-check:checked+.check {
-    background: #fc3;
+    background: #800000;
 }
 
 .input-check:checked+.check:after {
